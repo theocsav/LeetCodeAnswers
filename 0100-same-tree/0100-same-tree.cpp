@@ -23,7 +23,7 @@ public:
 
     void preorder(TreeNode* node, std::vector<int>& result){
         if(!node){
-            result.push_back(-999);
+            result.push_back(-999999);
             return;
         }
         result.push_back(node->val);
